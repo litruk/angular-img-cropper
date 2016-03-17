@@ -6,7 +6,6 @@
     "Allan Bishop<allan.bishop@gmail.com>"
   ],
   "description": "Client side image cropper directive for AngularJS (rectangular area, aspect ratio, multi-touch)",
-  "main": "dist/angular-img-cropper.min.js",
   "keywords": [
     "angular",
     "cropper",
