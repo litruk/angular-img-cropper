@@ -387,7 +387,7 @@ angular.module('angular-img-cropper', []).directive("imageCropper", ['$document'
 
                     this.enforceCropAspect = scope.enforceCropAspect || !this.keepAspect;
 
-                    angular.element(window)
+                    angular.element(canvas)
                       .off('mousemove.angular-img-cropper mouseup.angular-img-cropper touchmove.angular-img-cropper touchend.angular-img-cropper')
                       .on('mousemove.angular-img-cropper', this.onMouseMove.bind(this))
                       .on('mouseup.angular-img-cropper', this.onMouseUp.bind(this))
